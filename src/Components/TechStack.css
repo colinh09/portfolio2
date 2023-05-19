@@ -1,5 +1,5 @@
 .tech-stack {
-    margin-bottom: 2em;
+    margin: 0;
     padding-left: 5%;
 }
 
@@ -15,5 +15,39 @@
 
 .tech-icon {
     margin: 0.5em;
+    position: relative;
     font-size: 2em;
+}
+/* 
+.tooltip {
+    visibility: hidden;
+    width: 100px;
+    color: #333;
+    text-align: center;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -50px;
+    font-size: 0.8em;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+} */
+
+
+.tech-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }

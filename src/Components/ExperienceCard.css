@@ -2,10 +2,9 @@
     background-color: #292929;
     color: #F8F8FF;
     padding: 2em;
-    margin: 1em; /* Add margins to create space between cards */
-    border-radius: 10px;
+    margin: 1em;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Add box shadow for depth */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); 
 }
 
 .experience-card h3 {

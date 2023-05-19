@@ -8,7 +8,7 @@ function ProjectCard({name, tags, summary, githubUrl}) {
             <div className="project-header">
                 <h3>{name}</h3>
                 <a href={githubUrl} target="_blank" rel="noreferrer">
-                    <FaGithub size={22}/>
+                    <FaGithub size={30} color="black"/>
                 </a>
             </div>
             <div className="project-tags">

@@ -9,10 +9,11 @@ function TechStack({title, techs}) {
                 {techs.map((tech, index) => {
                     const IconComponent = tech.icon;
                     return (
-                        <div key={index} className="tech-icon" title={tech.name}>
+                        <div key={index} className="tech-icon">
                             <IconComponent />
+                            {/* <span className="tooltip">{tech.name}</span> */}
                         </div>
-                    );
+                    );                    
                 })}
             </div>
         </div>
