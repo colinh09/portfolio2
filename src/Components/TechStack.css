@@ -1,0 +1,19 @@
+.tech-stack {
+    margin-bottom: 2em;
+    padding-left: 5%;
+}
+
+.tech-stack h3,
+.tech-icons {
+    text-align: left;
+}
+
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech-icon {
+    margin: 0.5em;
+    font-size: 2em;
+}

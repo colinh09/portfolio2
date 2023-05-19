@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vh;
+    justify-content: flex-start;
+    margin-bottom: 10vh;
+    padding-top: 12vh;
+    scroll-snap-align: start;
+}
+
+.home-section#tech-stack {
+    align-items: flex-start;
+}
+
+
+.home-section h1 {
+    align-self: center; 
+    margin: 0;
+    font-size: 2.5em;   
+}
+
+/* About Styles */
+
+.about-section .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 1em; 
+    align-items: start; 
+    width: 90%; 
+    height: 80%;
+}
+
+.about-section .about-text h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 0;
+}
+
+.about-section .about-text .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.about-section .about-text .social-icons a {
+    color: inherit;  
+    text-decoration: none;  
+}
+
+.about-section .about-text .social-icons i {
+    font-size: 2.5em; 
+}
+
+.about-section .about-text p {
+    text-align: center;
+    margin-top: 1em;  
+}
+
+.about-section .about-image {
+    width: 100%;  
+    height: 90%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section .about-image img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    border-radius: 10px;
+}

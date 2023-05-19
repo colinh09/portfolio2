@@ -1,0 +1,12 @@
+.experience-carousel {
+    width: 80%;
+    margin: auto;
+}
+
+.experience-card {
+    opacity: 0.6;
+}
+
+.react-multi-carousel-item--active .experience-card {
+    opacity: 1;
+}

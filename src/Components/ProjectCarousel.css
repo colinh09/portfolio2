@@ -1,0 +1,12 @@
+.project-carousel {
+    width: 80%;
+    margin: auto;
+}
+
+.project-card {
+    opacity: 0.6;
+}
+
+.react-multi-carousel-item--active .project-card {
+    opacity: 1;
+}
