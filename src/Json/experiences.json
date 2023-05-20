@@ -1,0 +1,38 @@
+[
+    {
+        "company": "Company A",
+        "jobTitle": "Software Engineer",
+        "duration": "June 2020 - June 2021",
+        "techStack": ["React", "Node.js", "PostgreSQL"],
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "company": "Company B",
+      "jobTitle": "Software Engineer",
+      "duration": "June 2020 - June 2021",
+      "techStack": ["React", "Node.js", "PostgreSQL"],
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "company": "Company C",
+      "jobTitle": "Software Engineer",
+      "duration": "June 2020 - June 2021",
+      "techStack": ["React", "Node.js", "PostgreSQL"],
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "company": "Company D",
+      "jobTitle": "Software Engineer",
+      "duration": "June 2020 - June 2021",
+      "techStack": ["React", "Node.js", "PostgreSQL"],
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "company": "Company E",
+      "jobTitle": "Software Engineer",
+      "duration": "June 2020 - June 2021",
+      "techStack": ["React", "Node.js", "PostgreSQL"],
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ]
+  

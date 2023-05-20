@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Project A",
+        "tags": ["React", "Node.js", "PostgreSQL"],
+        "summary": "An application for managing projects, tasks, and teams.",
+        "githubUrl": "https://github.com/colinhwang/projectA"
+    },
+    {
+        "name": "Project B",
+        "tags": ["Python", "Django", "MySQL"],
+        "summary": "A web application for tracking inventory and sales.",
+        "githubUrl": "https://github.com/colinhwang/projectB"
+    },
+    {
+        "name": "Project C",
+        "tags": ["Java", "Spring Boot", "MongoDB"],
+        "summary": "A system for managing university course registration.",
+        "githubUrl": "https://github.com/colinhwang/projectC"
+    },
+    {
+        "name": "Project D",
+        "tags": ["JavaScript", "Express", "MongoDB"],
+        "summary": "A blogging platform for sharing and discovering new recipes.",
+        "githubUrl": "https://github.com/colinhwang/projectD"
+    },
+    {
+        "name": "Project E",
+        "tags": ["React", "Firebase"],
+        "summary": "A real-time chat application with user authentication.",
+        "githubUrl": "https://github.com/colinhwang/projectE"
+    }
+  ]
+  

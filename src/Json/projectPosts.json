@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Project A",
+        "technologies": ["React", "Node.js"],
+        "timeline": "Jan 2023 - Mar 2023",
+        "year": 2023,
+        "isCompleted": true,
+        "githubLink": "https://github.com/user/projectA",
+        "sections": [
+            {
+                "title": "Overview",
+                "content": [
+                    "This is the first paragraph of the overview.",
+                    "This is the second paragraph of the overview."
+                ]
+            },
+            {
+                "title": "Implementation",
+                "content": [
+                    "This is the first paragraph of the implementation.",
+                    "This is the second paragraph of the implementation.This is the second paragraph of the implementation.This is the second paragraph of the implementation.This is the second paragraph of the implementation.This is the second paragraph of the implementation.This is the second paragraph of the implementation."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Project B",
+        "technologies": ["React", "Node.js"],
+        "timeline": "Jan 2023 - Mar 2023",
+        "year": 2022,
+        "isCompleted": true,
+        "githubLink": "https://github.com/user/projectA",
+        "sections": [
+            {
+                "title": "Overview",
+                "content": [
+                    "This is the first paragraph of the overview.",
+                    "This is the second paragraph of the overview."
+                ]
+            },
+            {
+                "title": "Implementation",
+                "content": [
+                    "This is the first paragraph of the implementation.",
+                    "This is the second paragraph of the implementation."
+                ]
+            }
+        ]
+    }
+]

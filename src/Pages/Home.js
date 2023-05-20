@@ -10,80 +10,11 @@ import ExperienceCarousel from '../Components/ExperienceCarousel';
 import ProjectCarousel from '../Components/ProjectCarousel';
 import TechStack from '../Components/TechStack';
 import { IoIosArrowDropupCircle, IoIosArrowDropdownCircle } from 'react-icons/io';
+import experiences from '../Json/experiences.json';
+import projects from '../Json/projects.json';
 
 function Home() {
-  const experiences = [
-    {
-        company: 'Company A',
-        jobTitle: 'Software Engineer',
-        duration: 'June 2020 - June 2021',
-        techStack: ['React', 'Node.js', 'PostgreSQL'],
-        summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      company: 'Company B',
-      jobTitle: 'Software Engineer',
-      duration: 'June 2020 - June 2021',
-      techStack: ['React', 'Node.js', 'PostgreSQL'],
-      summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      company: 'Company C',
-      jobTitle: 'Software Engineer',
-      duration: 'June 2020 - June 2021',
-      techStack: ['React', 'Node.js', 'PostgreSQL'],
-      summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      company: 'Company D',
-      jobTitle: 'Software Engineer',
-      duration: 'June 2020 - June 2021',
-      techStack: ['React', 'Node.js', 'PostgreSQL'],
-      summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      company: 'Company E',
-      jobTitle: 'Software Engineer',
-      duration: 'June 2020 - June 2021',
-      techStack: ['React', 'Node.js', 'PostgreSQL'],
-      summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-  ];
-
-  const projects = [
-    {
-        name: 'Project A',
-        tags: ['React', 'Node.js', 'PostgreSQL'],
-        summary: 'An application for managing projects, tasks, and teams.',
-        githubUrl: 'https://github.com/colinhwang/projectA'
-    },
-    {
-        name: 'Project B',
-        tags: ['Python', 'Django', 'MySQL'],
-        summary: 'A web application for tracking inventory and sales.',
-        githubUrl: 'https://github.com/colinhwang/projectB'
-    },
-    {
-        name: 'Project C',
-        tags: ['Java', 'Spring Boot', 'MongoDB'],
-        summary: 'A system for managing university course registration.',
-        githubUrl: 'https://github.com/colinhwang/projectC'
-    },
-    {
-        name: 'Project D',
-        tags: ['JavaScript', 'Express', 'MongoDB'],
-        summary: 'A blogging platform for sharing and discovering new recipes.',
-        githubUrl: 'https://github.com/colinhwang/projectD'
-    },
-    {
-        name: 'Project E',
-        tags: ['React', 'Firebase'],
-        summary: 'A real-time chat application with user authentication.',
-        githubUrl: 'https://github.com/colinhwang/projectE'
-    },
-  ];
-
-const languages = [
+  const languages = [
   {icon: DiJavascript1, name: 'JavaScript'},
   {icon: DiPython, name: 'Python'},
   {icon: DiJava, name: 'Java'},
@@ -92,7 +23,7 @@ const languages = [
   {icon: SiC, name: 'C'},
   ];
 
-const softwareAndOs = [
+  const softwareAndOs = [
   {icon: FaGitAlt, name: 'Git'},
   {icon: SiLinux, name: 'Linux'},
   {icon: SiVim, name: 'Vim'},
@@ -100,7 +31,7 @@ const softwareAndOs = [
   {icon: SiMicrosoftoffice, name: 'Microsoft Office'},
   ];
 
-const additional = [
+  const additional = [
   {icon: DiReact, name: 'React'},
   {icon: DiMongodb, name: 'MongoDB'},
   {icon: DiMysql, name: 'MySQL'},
@@ -189,7 +120,7 @@ const additional = [
             <h1>PROJECTS</h1>
             <div className="learn-more">
                 <Link to="/projects">
-                  A more in-depth view into my projects 
+                  A more in-depth view into some of my projects 
                   <FiChevronsRight size={20} className="learn-more-icon"/>
                 </Link>
             </div>

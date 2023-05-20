@@ -4,7 +4,7 @@ import './TechStack.css';
 function TechStack({title, techs}) {
     return (
         <div className="tech-stack">
-            <h3>{title}</h3>
+            <h3>{title}:</h3>
             <div className="tech-icons">
                 {techs.map((tech, index) => {
                     const IconComponent = tech.icon;
