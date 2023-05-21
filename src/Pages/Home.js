@@ -89,14 +89,9 @@ function Home() {
                   <a href="https://www.instagram.com/colin_hwang_/" target="_blank"><FaInstagram size={22}/></a>
                   <a href="https://www.facebook.com/colin.hwang.9/" target="_blank"><FaFacebook size={22}/></a>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero
-                </p>
+                <p>I'm a student and software/machine learning engineer based in the NYC area, currently pursuing both a B.Eng. and M.Eng. in electrical engineering at The Cooper Union. My primary interests lie in machine learning and database management.</p>
+                <p>In the upcoming months, I will be joining Georgetown University as an undergraduate researcher, working on my master's thesis, which focuses on low-resource reinforcement deep learning.</p>
+                <p>Below, you will find an overview of my experience, projects, and the technology I use. For a more in-depth look into some of my projects, please visit the projects page. If you wish to contact me, I can be reached at colin.hwang@cooper.edu.</p>
               </div>
               <div className="about-image">
                   <img src='/colinhwang.jpg' alt="Picture of Colin Hwang"/>

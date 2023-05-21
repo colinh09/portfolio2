@@ -16,7 +16,7 @@ body {
 
 .projects-nav {
     flex: 1;
-    max-width: 20%;
+    max-width: 15%;
     padding: 2vh 2em;
     border-right: 1px solid #F8F8FF;
     font-size: 12px;

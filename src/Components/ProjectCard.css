@@ -6,6 +6,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     text-align: center;
     height: 100%;
+    overflow: auto;
 }
 
 .project-card .project-header {
@@ -19,6 +20,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 1em;
+    font-size: 12px;
 }
 
 .project-card .project-tag {
@@ -31,4 +33,5 @@
 
 .project-card p {
     text-align: left;
+    font-size: 12px;
 }

@@ -1,15 +1,15 @@
 [
     {
-        "name": "Project A",
-        "tags": ["React", "Node.js", "PostgreSQL"],
-        "summary": "An application for managing projects, tasks, and teams.",
-        "githubUrl": "https://github.com/colinhwang/projectA"
+        "name": "Munchr - Restaurant Application",
+        "tags": ["React", "Node.js", "MongoDB", "UI/UX", "Google Maps API", "Firebase"],
+        "summary": "A food-based social media web application that allows users to rate and view restaurants while sharing their dining experiences with friends. Users can maintain various lists of restaurants and rate them on a Google Maps instance. Used mongoDB for the backend, expressJS for the service layer, and react for the front-end.",
+        "githubUrl": "https://github.com/colinh09/BITE"
     },
     {
-        "name": "Project B",
-        "tags": ["Python", "Django", "MySQL"],
-        "summary": "A web application for tracking inventory and sales.",
-        "githubUrl": "https://github.com/colinhwang/projectB"
+        "name": "Crew Connect - Discord Subset",
+        "tags": ["PostgreSQL", "React", "Java", "Spring Boot", "JDBC", "Firebase"],
+        "summary": "A messaging platform that was aimed to be an application with a subset of discord's features. It allows for users to register for an account and to securely log in with email and password through firebase authentification. The application allows users to create servers, groupchats, and send messages within the groupchats in real time. The application uses PostgreSQL for the database, Java and JDBC for the service layer and React for the front end.",
+        "githubUrl": "https://github.com/CooperCrew/crew-connect"
     },
     {
         "name": "Project C",

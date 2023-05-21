@@ -1,38 +1,31 @@
 [
     {
-        "company": "Company A",
+        "company": "GeorgeTown University REU in Computer Science and Public Policy ",
+        "jobTitle": "Undergraduate Researcher",
+        "duration": "June 2023 - August 2023",
+        "techStack": ["Machine Learning", "Deep Learning", "NLP", "Data Science"],
+        "summary": "Currently In Progress."
+    },
+    {
+        "company": "Applause",
         "jobTitle": "Software Engineer",
-        "duration": "June 2020 - June 2021",
-        "techStack": ["React", "Node.js", "PostgreSQL"],
-        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "duration": "May 2022 - August 2022",
+        "techStack": ["Database Optimization", "Virtual Reality Systems", "Data Analytics", "Algorithm Development"],
+        "summary": "Advanced next-gen VR devices through the refinement and testing of complex algorithms. Excelled in a fast-paced, agile environment, ensuring high-quality deliverables and maintaining data integrity during test cycles. Enhanced team productivity and mitigated potential data loss through proactive collaboration."
+    },      
+    {
+      "company": "The Cooper Union",
+      "jobTitle": "Teacher Assistant",
+      "duration": "Octobeer 2021 - March 2022",
+      "techStack": ["VR/AR", "CAD", "Web Programming", "STEM Education", "Mentorship"],
+      "summary": "Taught and provided opportunity to students that come from under-represented groups in the field of STEM. Enabled students to develop familiarity with extended reality and aided students with developing skills in engineering design, computer aided design, and web-based programming. Supported the development of projects involving CAD, HTML, and JavaScript."
     },
     {
-      "company": "Company B",
-      "jobTitle": "Software Engineer",
-      "duration": "June 2020 - June 2021",
-      "techStack": ["React", "Node.js", "PostgreSQL"],
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      "company": "Company C",
-      "jobTitle": "Software Engineer",
-      "duration": "June 2020 - June 2021",
-      "techStack": ["React", "Node.js", "PostgreSQL"],
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      "company": "Company D",
-      "jobTitle": "Software Engineer",
-      "duration": "June 2020 - June 2021",
-      "techStack": ["React", "Node.js", "PostgreSQL"],
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      "company": "Company E",
-      "jobTitle": "Software Engineer",
-      "duration": "June 2020 - June 2021",
-      "techStack": ["React", "Node.js", "PostgreSQL"],
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "company": "Town of North Hempstead",
+      "jobTitle": "Lifeguard",
+      "duration": "August 2019 - September 2020",
+      "techStack": ["CPR", "Rescue Techniques", "First Aid", "Safety Compliance", "Teamwork"],
+      "summary": "Underwent intensive CPR and lifeguard rescue training to prepare for real-world rescue scenarios. Worked alongside other lifeguards to maintain a safe and clean environment for patrons to enjoy. Lead and aided in several rescues involving administering first-aid and CPR - scenarios ranged from low-risk to life-threatening."
     }
   ]
   

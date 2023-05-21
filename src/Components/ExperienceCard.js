@@ -7,7 +7,9 @@ function ExperienceCard({company, jobTitle, duration, techStack, summary}) {
             <h3>{company}</h3>
             <h4>{jobTitle}</h4>
             <h5>{duration}</h5>
-            <p><strong>Tech Stack: </strong>{techStack.join(", ")}</p>
+            <div className="tech-tags">
+                {techStack.map((tag, index) => <span key={index} className="tech-tag">{tag}</span>)}
+            </div>
             <p>{summary}</p>
         </div>
     );
