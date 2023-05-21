@@ -8,26 +8,50 @@
     {
         "name": "Crew Connect - Discord Subset",
         "tags": ["PostgreSQL", "React", "Java", "Spring Boot", "JDBC", "Firebase"],
-        "summary": "A messaging platform that was aimed to be an application with a subset of discord's features. It allows for users to register for an account and to securely log in with email and password through firebase authentification. The application allows users to create servers, groupchats, and send messages within the groupchats in real time. The application uses PostgreSQL for the database, Java and JDBC for the service layer and React for the front end.",
+        "summary": "A messaging platform that was aimed to be an application with a subset of discord's features. It allows for users to register for an account and to securely log in with email and password through firebase authentification. The application also allows users to create servers and groupchats with real time messaging functionality. The application uses PostgreSQL for the database, Java and JDBC for the service layer and React for the front end.",
         "githubUrl": "https://github.com/CooperCrew/crew-connect"
     },
     {
-        "name": "Project C",
-        "tags": ["Java", "Spring Boot", "MongoDB"],
-        "summary": "A system for managing university course registration.",
-        "githubUrl": "https://github.com/colinhwang/projectC"
+        "name": "Game Playing AI - Checkers",
+        "tags": ["C++", "Game-Playing AI", "Minimax", "Iterative Deepening", "Heuristic Function"],
+        "summary": "Implemented a game playing program in C++ that plays checkers against the user with the capability to win against an above average player. Capable of making moves two/three turns in advance. Combines iterative deepening, minimax search with alpha beta pruning, and a heuristic function to search the game space for ideal moves.",
+        "githubUrl": "https://github.com/colinh09/AI-Checkers"
     },
     {
-        "name": "Project D",
+        "name": "Sentiment Analysis - NLP",
+        "tags": ["NLP", "TensorFlow", "Keras", "Recurrent Neural Network", "Long Short-Term Memory Network", "Python"],
+        "summary": "Designed a neural network using Python, Keras, and TensorFlow to predict game reviews, trained and tested on around 5,000 GameStop reviews. Final architecture consisted of an embedding layer that received one-hot vectors as input, two fully connected recurrent neural networks as hidden layers, and a dense layer with SoftMax activation as the output layer. Achieved an accuracy of 93.81%.",
+        "githubUrl": "https://github.com/colinh09/Natural-Language-Processing/tree/main/Sentiment-Analysis"
+    },
+    {
+        "name": "Unoptimized C Compiler",
         "tags": ["JavaScript", "Express", "MongoDB"],
-        "summary": "A blogging platform for sharing and discovering new recipes.",
-        "githubUrl": "https://github.com/colinhwang/projectD"
+        "summary": "Currently not done writing.",
+        "githubUrl": "https://github.com/colinh09/Compilers"
     },
     {
-        "name": "Project E",
-        "tags": ["React", "Firebase"],
-        "summary": "A real-time chat application with user authentication.",
-        "githubUrl": "https://github.com/colinhwang/projectE"
+        "name": "Schedule Planner for The Cooper Union",
+        "tags": ["SQL", "Vue", "JavaScript", "Database Design"],
+        "summary": "Developed a schedule planner website designed for Cooper Union students to aid them in navigating the complex prerequisite and corequisite relationship between courses. Utilizes a script to populate a configured SQL database by fetching the list of all courses taught at The Cooper Union along with their prerequisites. Implemented the frontend as a Vue Single-Page Application, allowing students to sign in and add courses to their schedule for specific semesters.",
+        "githubUrl": "https://github.com/colinh09/ece-464-final-project/tree/master"
+    },
+    {
+        "name": "Linear/Logistic Regression Implementation",
+        "tags": ["Python", "Machine Learning", "Stochastic Gradient Descent", "Regression Techniques"],
+        "summary": "Performed in-depth regression analysis on multiple datasets. For linear regression, analyzed prostate and concrete data using plain, ridge, and lasso methods, and utilized lasso plot results to assess feature correlation. For logistic regression, evaluated binary classified South African heart and heart failure datasets and multinomial classified dry bean dataset using stochastic gradient descent with and without L2 regularization penalty.",
+        "githubUrl": "https://github.com/colinh09/Freq-Machine-Learning"
+    },
+    {
+        "name": "Course Work for Data Structures and Algorithms",
+        "tags": ["C++", "Priority Queue", "Hash Table", "Binary Heap", "Dynamic Programming", "Graph Algorithms"],
+        "summary": "Completed a series of complex projects to gain a solid foundation in data structures and algorithms using C++. The projects included building a hash table, creating a priority queue, implementing Dijkstra's algorithm, and solving a challenging dynamic programming problem. Each project built upon the knowledge acquired in the previous ones, culminating in a comprehensive understanding of key data structures and algorithmic concepts.",
+        "githubUrl": "https://github.com/colinh09/DSA2-Programs"
+    },
+    {
+        "name": "Collection of Beginner Unity Games",
+        "tags": ["C#", "Game Development", "Unity", "Physics", "3D Modeling"],
+        "summary": "Built five different games using Unity and C#. Followed tutorials and used provided assets. Learned about game development basics like physics, moving bodies, scripting, level design, user interface design, and asset management. The projects provided hands-on experience in understanding the Unity game engine, object interactions, and game design principles.",
+        "githubUrl": "https://github.com/colinh09/Unity-Games"
     }
   ]
   
