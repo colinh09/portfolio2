@@ -4,7 +4,7 @@
     padding: 1em 1em 0;
     margin: 1em 1em 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     height: 100%;
     overflow: auto;
 }
@@ -29,7 +29,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 1em;
     font-size: 12px;
 }
 
@@ -42,7 +41,89 @@
 }
 
 .experience-card p {
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
-    margin-bottom: 1em;  
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
+
+@media (max-width: 599px) {
+    .experience-card {
+        padding: 0.8em 0.8em 0;
+        margin: 0.8em 0.8em 0;
+    }
+    .experience-card .tech-tags,
+    .experience-card p,
+    .experience-card h4,
+    .experience-card h5 {
+        font-size: 9px;
+    }
+    .experience-card h3 {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .experience-card {
+        padding: 0.9em 0.9em 0;
+        margin: 0.9em 0.9em 0;
+    }
+    .experience-card .tech-tags,
+    .experience-card p,
+    .experience-card h4,
+    .experience-card h5 {
+        font-size: 10px;
+    }
+    .experience-card h3 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .experience-card {
+        padding: 1.1em 1.1em 0;
+        margin: 1.1em 1.1em 0;
+    }
+    .experience-card .tech-tags,
+    .experience-card p,
+    .experience-card h4,
+    .experience-card h5 {
+        font-size: 11px;
+    }
+    .experience-card h3 {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1799px) {
+    .experience-card {
+        padding: 1.2em 1.2em 0;
+        margin: 1.2em 1.2em 0;
+    }
+    .experience-card .tech-tags,
+    .experience-card p,
+    .experience-card h4,
+    .experience-card h5 {
+        font-size: 12px;
+    }
+    .experience-card h3 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .experience-card {
+        padding: 1.3em 1.3em 0;
+        margin: 1.3em 1.3em 0;
+    }
+    .experience-card .tech-tags,
+    .experience-card p,
+    .experience-card h4,
+    .experience-card h5 {
+        font-size: 14px;
+    }
+    .experience-card h3 {
+        font-size: 16px;
+    }
+}
+

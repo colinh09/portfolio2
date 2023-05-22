@@ -10,3 +10,33 @@
 .react-multi-carousel-item--active .project-card {
     opacity: 1;
 }
+
+@media (max-width: 599px) {
+    .project-carousel {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .project-carousel {
+        width: 90%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .project-carousel {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1799px) {
+    .project-carousel {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .project-carousel {
+        width: 80%;
+    }
+}

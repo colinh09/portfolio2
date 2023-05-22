@@ -38,3 +38,58 @@
     color: #21F00C;
     text-decoration: none;
 }
+
+@media (max-width: 599px) {
+    .navbar {
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+
+    .navbar .links {
+        gap: 10px; 
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .navbar {
+        padding: 17px 40px;
+        font-size: 16px;
+    }
+
+    .navbar .links {
+        gap: 15px; 
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .navbar {
+        padding: 19px 45px;
+        font-size: 18px;
+    }
+
+    .navbar .links {
+        gap: 18px; 
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1799px) {
+    .navbar {
+        padding: 20px 50px;
+        font-size: 20px;
+    }
+
+    .navbar .links {
+        gap: 20px; 
+    }
+}
+
+@media (min-width: 1800px) {
+    .navbar {
+        padding: 22px 60px;
+        font-size: 22px;
+    }
+
+    .navbar .links {
+        gap: 25px; 
+    }
+}

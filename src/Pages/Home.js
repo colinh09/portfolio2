@@ -84,10 +84,10 @@ function Home() {
               <div className="about-text">
                 <h2>Colin Hwang</h2>
                 <div className="social-icons">
-                  <a href="https://github.com/colinh09" target="_blank"><FaGithub size={22}/></a>
-                  <a href="https://www.linkedin.com/in/colin-hwang-dev/" target="_blank"><FaLinkedin size={22}/></a>
-                  <a href="https://www.instagram.com/colin_hwang_/" target="_blank"><FaInstagram size={22}/></a>
-                  <a href="https://www.facebook.com/colin.hwang.9/" target="_blank"><FaFacebook size={22}/></a>
+                  <a href="https://github.com/colinh09" target="_blank"><FaGithub className="icon"/></a>
+                  <a href="https://www.linkedin.com/in/colin-hwang-dev/" target="_blank"><FaLinkedin className="icon"/></a>
+                  <a href="https://www.instagram.com/colin_hwang_/" target="_blank"><FaInstagram className="icon"/></a>
+                  <a href="https://www.facebook.com/colin.hwang.9/" target="_blank"><FaFacebook className="icon"/></a>
                 </div>
                 <p>I'm a student and software/machine learning engineer based in the NYC area, currently pursuing both a B.Eng. and M.Eng. in electrical engineering at The Cooper Union. My primary interests lie in machine learning and database management.</p>
                 <p>In the upcoming months, I will be joining Georgetown University as an undergraduate researcher while working on my master's thesis, which focuses on low-resource reinforcement deep learning.</p>
@@ -131,8 +131,8 @@ function Home() {
         </section>
 
         <div className="scroll-icon">
-          <IoIosArrowDropupCircle size={60} onClick={scrollUp} />
-          <IoIosArrowDropdownCircle size={60} onClick={scrollDown} />
+          <IoIosArrowDropupCircle size={60} onClick={scrollUp} className="arrow" />
+          <IoIosArrowDropdownCircle size={60} onClick={scrollDown} className="arrow"/>
         </div>
       </div>
   );

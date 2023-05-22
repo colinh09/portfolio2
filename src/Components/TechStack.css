@@ -19,36 +19,63 @@
     position: relative;
     font-size: 2em;
 }
-/* 
-.tooltip {
-    visibility: hidden;
-    width: 100px;
-    color: #333;
-    text-align: center;
-    padding: 2px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 150%;
-    left: 50%;
-    margin-left: -50px;
-    font-size: 0.8em;
-    transition: opacity 0.3s;
-    opacity: 0;
+
+@media (max-width: 599px) {
+    .tech-stack {
+        padding-left: 2%;
+    }
+    .tech-icons {
+        font-size: 13px;
+    }
+    .tech-icon {
+        font-size: 1.7em;
+    }
 }
 
-.tooltip::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #333 transparent transparent transparent;
-} */
+@media (min-width: 600px) and (max-width: 899px) {
+    .tech-stack {
+        padding-left: 3%;
+    }
+    .tech-icons {
+        font-size: 14px;
+    }
+    .tech-icon {
+        font-size: 1.8em;
+    }
+}
 
+@media (min-width: 900px) and (max-width: 1199px) {
+    .tech-stack {
+        padding-left: 4%;
+    }
+    .tech-icons {
+        font-size: 15px;
+    }
+    .tech-icon {
+        font-size: 1.9em;
+    }
+}
 
-.tech-icon:hover .tooltip {
-    visibility: visible;
-    opacity: 1;
+@media (min-width: 1200px) and (max-width: 1799px) {
+    .tech-stack {
+        padding-left: 4.5%;
+    }
+    .tech-icons {
+        font-size: 15px;
+    }
+    .tech-icon {
+        font-size: 1.95em;
+    }
+}
+
+@media (min-width: 1800px) {
+    .tech-stack {
+        padding-left: 5%;
+    }
+    .tech-icons {
+        font-size: 16px;
+    }
+    .tech-icon {
+        font-size: 2em;
+    }
 }

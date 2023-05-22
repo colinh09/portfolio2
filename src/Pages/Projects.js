@@ -29,7 +29,7 @@ const Projects = () => {
                                 onClick={() => setActiveProject(project)}
                             >
                                 <div className="project-name-status">
-                                    <h2>{project.name} <i>{project.isCompleted ? ' - Completed' : ' - Work in progress'}</i></h2>
+                                    <h2>{project.name} <i>{project.isCompleted ? '' : ' - Work in progress'}</i></h2>
                                 </div>
                             </div>
                         ))}

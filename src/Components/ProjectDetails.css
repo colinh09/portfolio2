@@ -22,6 +22,10 @@
     text-align: left;
 }
 
+.details-title h1 {
+    font-size: 2em;
+}
+
 .details-github-link {
     text-align: left;
     padding-left: 1%;
@@ -60,4 +64,67 @@
 
 .details-section p {
     margin-bottom: 0.5em;
+}
+
+@media (max-width: 599px) {
+    .details-content {
+        padding: 0 1.5%;
+    }
+    .details-title h1 {
+        font-size: 1.3em;
+    }
+    .details-tech-item {
+        font-size: 0.6em;
+    }
+    .details-section h2 {
+        font-size: 1.0em;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .details-title h1 {
+        font-size: 1.5em;
+    }
+    .details-tech-item {
+        font-size: 0.65em;
+    }
+    .details-section h2 {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .details-title h1 {
+        font-size: 1.6em;
+    }
+    .details-tech-item {
+        font-size: 0.7em;
+    }
+    .details-section h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1799px) {
+    .details-title h1 {
+        font-size: 1.9em;
+    }
+    .details-tech-item {
+        font-size: 0.85em;
+    }
+    .details-section h2 {
+        font-size: 1.45em;
+    }
+}
+
+@media (min-width: 1800px) {
+    .details-title h1 {
+        font-size: 2em;
+    }
+    .details-tech-item {
+        font-size: 0.9em;
+    }
+    .details-section h2 {
+        font-size: 1.5em;
+    }
 }
