@@ -1,6 +1,6 @@
 .details-content {
     max-width: 100%;
-    padding: 0 2.5%;
+    padding: 2.5% 2.5%;
 }
 
 .details-content a {
@@ -50,7 +50,7 @@
 
 .details-description {
     text-align: left;
-    padding-top: 5%;
+    padding-top: 2.5%;
 }
 
 .details-section {
@@ -76,6 +76,9 @@
     .details-tech-item {
         font-size: 0.6em;
     }
+    .details-description{
+        font-size: 0.8em;
+    }
     .details-section h2 {
         font-size: 1.0em;
     }
@@ -87,6 +90,9 @@
     }
     .details-tech-item {
         font-size: 0.65em;
+    }
+    .details-description{
+        font-size: 0.9em;
     }
     .details-section h2 {
         font-size: 1.1em;

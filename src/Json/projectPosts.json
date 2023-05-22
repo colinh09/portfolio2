@@ -1,35 +1,11 @@
 [
     {
-        "name": "Project A",
-        "technologies": ["React", "Node.js"],
-        "timeline": "Jan 2023 - Mar 2023",
+        "name": "New Projects Soon!",
+        "technologies": ["coming soon"],
+        "timeline": "",
         "year": 2023,
-        "isCompleted": true,
-        "githubLink": "https://github.com/user/projectA",
-        "sections": [
-            {
-                "title": "Overview",
-                "content": [
-                    "This is the first paragraph of the overview.",
-                    "This is the second paragraph of the overview."
-                ]
-            },
-            {
-                "title": "Implementation",
-                "content": [
-                    "This is the first paragraph of the implementation.",
-                    "This is the second paragraph of the implementation.This is the second paragraph of the implementation.This is the second paragraph of the implementation.This is the second paragraph of the implementation.This is the second paragraph of the implementation.This is the second paragraph of the implementation."
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Project B",
-        "technologies": ["React", "Node.js"],
-        "timeline": "Jan 2023 - Mar 2023",
-        "year": 2022,
-        "isCompleted": true,
-        "githubLink": "https://github.com/user/projectA",
+        "isCompleted": false,
+        "githubLink": "",
         "sections": [
             {
                 "title": "Overview",
@@ -46,5 +22,172 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Munchr - Restaurant Social Media App",
+        "technologies": ["React", "Node.js", "MongoDB", "UI/UX", "Google Maps API", "Firebase"],
+        "timeline": "March 2023 - May 2023",
+        "year": 2023,
+        "isCompleted": true,
+        "githubLink": "https://github.com/colinh09/BITE",
+        "sections": [
+            {
+                "title": "Overview",
+                "content": [
+                    "Munchr is a food-based social media web application that allows users to rate and view restaurants while sharing their dining experiences with friends. Users can maintain various lists of restaurants and rate them on a Google Maps instance. The friending system enables users to see updates their friends have made to their lists and any recent restaurant reviews they have posted. Munchr is still unfinished, with more features to be added soon. This application is hosted at munchr.org for public view/use."
+                ]
+            },
+            {
+                "title": "Database Design and Population",
+                "content": [
+                    "For our database, we chose to use MongoDB. This is because we thought that a NoSQL database would be better at handling large amounts of data. MongoDB allows users to create a MongoDB cluster in a server nearby which is easy to connect to, making the database easy to work with. Within the database we have three tables: users, restaurants, and ratings. The user table stores the users’ username, email, password, friend list, wants to try list, have been to list, favorites list, dietary restrictions, city, and state. The restaurant table stores the restaurant name, location, user rating, price rating, and latitude/longitude values. The ratings table stores the user id of the user that rated the restaurant, restaurant id of the restaurant being rated, review content, star rating, price rating, and whether it was a repeat visit for the reviewer.",
+                    "Populating the restaurants table proved more difficult than expected and caused early issues in the project. To retrieve restaurants, we decided to use a python script and the google maps API to fetch restaurants and their information in the NYC area and store them in a csv file. We could then parsethe csv file and store each restaurant in the database using another python script. The google maps API comes with many limitations, such as a limit of 40 restaurants per query. Therefore, as workaround, we queried on small partitions of the NYC area by making a query for every zip code in New York. This allowed us to get a little over 6000 restaurants, which was good enough for the scope of our application.",
+                    "Another limitation was that it was difficult to get information about restaurants besides their pricelevel, average user rating, and location because many restaurants did not have such information. It would have been ideal to have the cuisine type, opening/closing hours, etc., but we decided to work with the data we got."
+                ]
+            },
+            {
+                "title": "UI Design",
+                "content":[
+                    "This part was primarily done by my partner, Irene Choi, who came up with the idea for this project and created the user interface for the project. She made various figma designs for all the pages/functionality we wished to include in the project." 
+                ]
+            },
+            {
+                "title": "Functionality Implemented",
+                "content": [
+                  "Key features successfully implemented in the application include a login, logout, and register functionality using Firebase, a home page displaying recent friend activity, a list management page for maintaining restaurant lists, an explore page with a Google map instance for viewing and reviewing restaurants, a friend tab for adding and removing friends in real time and viewing their lists, and a taste profile page allowing users to view stats and user settings. The project's scope was larger than initially anticipated, indicating a need for continuous development."
+                ]
+            },
+            {
+                "title": "Shortcomings and Future Work",
+                "content": [
+                    "In terms of shortcomings and future improvements, the application lacks functionality for adding new restaurants not already in the database, the taste profile page needs visual and informational improvements, the ability to view friends' taste profiles is absent, the friend addition system needs refinement, users can currently add themselves as a friend which is not ideal, private/public review features were forgotten, the application is not optimally responsive for smaller screen sizes especially due to complications with the Google map instance, profile and restaurant pictures implementation is missing which could be challenging due to storage and fetching issues, and there is a need for more detailed information about restaurants such as opening hours, website, and type of cuisine."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Crew Connect - Discord Subset",
+        "technologies": ["PostgreSQL", "React", "Java", "Spring Boot", "JDBC", "Firebase"],
+        "timeline": "January 2023 - May 2023",
+        "year": 2023,
+        "isCompleted": true,
+        "githubLink": "https://github.com/CooperCrew/crew-connect",
+        "sections": [
+            {
+                "title": "Overview",
+                "content": [
+                    "This is the first paragraph of the overview.",
+                    "This is the second paragraph of the overview."
+                ]
+            },
+            {
+                "title": "Implementation",
+                "content": [
+                    "This is the first paragraph of the implementation.",
+                    "This is the second paragraph of the implementation."
+                ]
+            },
+            {
+                "title": "",
+                "content":[
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sentiment Analysis on Game Reviews",
+        "technologies": ["NLP", "TensorFlow", "Keras", "Recurrent Neural Network", "Long Short-Term Memory Network", "Python"],
+        "timeline": "April 2022 - May 2022",
+        "year": 2022,
+        "isCompleted": true,
+        "githubLink": "https://github.com/colinh09/Natural-Language-Processing/tree/main/Sentiment-Analysis",
+        "sections": [
+            {
+                "title": "Introduction",
+                "content": [
+                    "For this project, I utilized the machine learning library TensorFlow to design a neural network purposed for sentiment analysis of game reviews. This involved employing Keras, TensorFlow's deep learning API, for tasks such as tokenizing, padding, and constructing and training the neural network architecture. The data leveraged in this project was sourced from GameStop, comprising product reviews from their website. In the dataset, a user assigns a rating between 1 and 5, along with their review. For the purposes of creating a validation set, I opted for an 80:20 train/test split, a division which is executed each time the program runs."
+                ]
+            },
+            {
+                "title": "Other Variables",
+                "content": [
+                    "Beyond the network architecture, various other factors were key in the optimization of the neural network, including the learning rate, batch size, number of epochs, loss function, optimizer, and the ratio of the test/train split. Given time constraints and the vast number of variables, a systematic exploration of all combinations wasn't feasible. Consequently, I opted to maintain most variables at their initial settings, once the results were satisfactory. My optimizer of choice was the Adam optimizer with a fixed learning rate of 0.001. The choice of Adam was largely due to its proficiency in performing stochastic gradient descent. The loss function employed was categorical cross entropy, and this remained consistent across all trials. Therefore, outside of changes to the architecture, my experimentation focused on varying the number of epochs and the batch size, with the general observation that more epochs and a smaller batch size yielded superior results."
+                ]
+            },
+            {
+                "title": "Architecture 1",
+                "content": [
+                    "The first architecture entailed a fully connected Recurrent Neural Network (RNN) using the SimpleRNN class from Keras, configured with 32 output nodes. The input was one-hot encoded vectors, processed by an embedded layer from Keras' embedded layer class. The output layer utilized a dense layer from Keras' dense layer class, configured with softmax activation and five output nodes, to account for the five different possible ratings. All subsequent architectures maintained the same input and output layer configurations. Unfortunately, this architecture proved less successful, as it predicted a rating of 5 for all reviews, likely due to the prevalence of such ratings in the data. Despite an accuracy increase between the first and second epochs, no meaningful progress followed."
+                ]
+            },
+            {
+                "title": "Architecture 2",
+                "content": [
+                    "Given the shortcomings of the first architecture, I decided to experiment with Long Short-Term Memory (LSTM) layers from Keras’ LSTM class. The output nodes per layer and the output/input layers were preserved as in the first architecture. The initial LSTM layer returned sequences, while the subsequent one did not. The LSTM architecture yielded better results, providing accurate predictions across more categories. However, it failed to predict any reviews with a rating of 2. With more epochs, the accuracy is expected to improve."
+                ]
+            },
+            {
+                "title": "Architecture 3",
+                "content": [
+                    "In my third architecture, I experimented with Gated Recurrent Units (GRU), another type of RNN layer offered by Keras. While I did not have a comprehensive understanding of GRU, some online resources suggested that GRU tends to outperform LSTM on smaller datasets. Given my dataset of 4687 reviews, I was unsure if it qualified as a 'smaller dataset', but it seemed worthwhile to test. The GRU architecture performance was slightly better, but the improvement could be attributed to various factors. For instance, every time the program ran, it regenerated the test and training split; thus, it could be possible that this run happened to receive fewer 2-rated reviews, which were more challenging to predict. Upon comparison, I concluded that the LSTM and GRU models yielded similar results."
+                ]
+            },
+            {
+                "title": "Final Network",
+                "content": [
+                    "In the final implementation, I decided to proceed with the LSTM-based second architecture, as it was a type of RNN I was more familiar with and it produced results significantly superior to random guessing. On increasing the number of training epochs from 6 to 20, the model's accuracy saw a considerable jump from approximately 80% to 93.81%. I conjecture that with a higher number of epochs, the model could potentially reach an accuracy in the high 90s. However, given the performance gain already achieved, I decided to stop the training at this point."
+                ]
+            }
+        ]        
+    },
+    {
+        "name": "Game Playing AI - Checkers",
+        "technologies": ["C++", "Game-Playing AI", "Minimax", "Iterative Deepening", "Heuristic Function"],
+        "timeline": "September 2021 - October 2021",
+        "year": 2021,
+        "isCompleted": true,
+        "githubLink": "https://github.com/colinh09/AI-Checkers",
+        "sections": [
+            {
+                "title": "Game Setting Configuration",
+                "content": [
+                    "On initialization, the program prompts the user to specify various game configurations. These include whether to commence a new game or load a preexisting one, the desired game mode (AI vs AI or User vs AI), the AI's decision-making time limit (ranging from 3 to 60 seconds), and the player who will make the first move.",
+                    "For loaded games, the time limit and starting player details are extracted directly from the saved game file. This file also contains the game state representation, where '1' denotes player 1's counter, '2' is for player 2's counter, '3' and '4' signify kings for players 1 and 2, respectively, and '0' indicates an empty space.",
+                    "In the User vs AI mode, player 1 is associated with the user, and player 2 is mapped to the AI. Player 1 employs red counters while player 2 uses white ones."
+                ]
+            },
+            {
+                "title": "Checkerboard Display",
+                "content": [
+                    "Once the pre-game configurations are completed, the program presents a checkerboard. It's an 8x8 grid featuring alternating black and white tiles, with the game pieces placed on black tiles. Both rows and columns are annotated with green numeric identifiers, ranging from 0 to 7.",
+                    "Player 1's pieces are denoted by the letter 'a', while player 2's pieces are represented by 'z'. Kings are distinguished by capital letters, with 'A' for player 1 and 'Z' for player 2. These identifiers, alongside other crucial information, are listed in the 'counter key' at the top of the game board.",
+                    "Additionally, a list of legal moves for the active player is displayed, with each move having a corresponding numerical value. To select a move, the user inputs the associated number. The move format is as follows: [row, column] --> [new row, new column]."
+                ]
+            },
+            {
+                "title": "AI's Move Selection",
+                "content": [
+                    "After making its move, the AI reveals the selected move, the maximum depth explored, the depth at which the search was terminated, and the time consumed to choose the move. The AI strictly adheres to the pre-defined time limit.",
+                    "When the AI is to move, an iterative deepening mechanism is engaged. This process repeatedly applies the minimax search with increasing depths until the time limit is reached. However, if there's less than half of the time limit remaining after completing a search depth, the AI does not attempt the next depth. Moreover, if there's only one available move, it bypasses the minimax search and selects the move instantly."
+                ]
+            },
+            {
+                "title": "Minimax Search",
+                "content": [
+                    "The minimax algorithm serves as the backbone of the AI's decision-making process. The search kicks off by ensuring that the time limit hasn't elapsed. If the search has reached the maximum permissible depth or if the current player can't make a move, the function returns the output of the heuristic function.",
+                    "The search can extend to a further depth until no more jumps can be made. This strategy takes advantage of potential advantageous trades. Hence, it's possible for the heuristic function to execute after sacrificing a piece.",
+                    "The algorithm considers all possible moves, duplicates the board for each move, applies the move, and recursively applies the minimax search on the resulting state."
+                ]
+            },
+            {
+                "title": "Heuristic Function",
+                "content": [
+                    "The heuristic function acts as the AI's strategic guide, evaluating the game state in two distinct stages: 'early' and 'late' game. The 'early game' heuristic places importance on factors such as the count of each player's pawns and kings, the number of pieces in home rows, the pieces in the central quadrant, and the pieces on the middle rows outside the central quadrant.",
+                    "During the 'late game', the heuristic's focus transitions to the total number of pieces on the board, the quantity of each player's pawns and kings (with heightened value for kings), trading potential, and the count of pieces that are yet to be promoted to kings. This encourages the AI to prioritize occupying the opponent's home rows."
+                ]
+            }
+        ]
+        
     }
 ]
