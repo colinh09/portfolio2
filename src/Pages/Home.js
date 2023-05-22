@@ -90,8 +90,8 @@ function Home() {
                   <a href="https://www.facebook.com/colin.hwang.9/" target="_blank"><FaFacebook className="icon"/></a>
                 </div>
                 <p>I'm a student and software/machine learning engineer based in the NYC area, currently pursuing both a B.Eng. and M.Eng. in electrical engineering at The Cooper Union. My primary interests lie in machine learning and database management.</p>
-                <p>In the upcoming months, I will be joining Georgetown University as an undergraduate researcher while working on my master's thesis, which focuses on low-resource reinforcement deep learning.</p>
-                <p>Below, you will find an overview of my experience, projects, and the technology I use. In the projets page, you can find a more comprehensive insight into chosen projects. If you wish to contact me, I can be reached at colin.hwang@cooper.edu.</p>
+                <p>In the upcoming months, I will be joining Georgetown University as an undergraduate researcher while working on my master's thesis, which will focus on low-resource deep reinforcement learning.</p>
+                <p>Below, you will find an overview of my experience, projects, and the technology I use. In the projects page, you can find a more comprehensive insight into certain projects that I have written documentation for. You can also find updates on projects that I am currently working on. If you wish to contact me, I can be reached at colin.hwang@cooper.edu.</p>
               </div>
               <div className="about-image">
                   <img src='/colinhwang.jpg' alt="Picture of Colin Hwang"/>
