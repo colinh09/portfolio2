@@ -1,6 +1,6 @@
 [
     {
-        "name": "New Projects Soon!",
+        "name": "Upcoming Projects!",
         "technologies": ["coming soon"],
         "timeline": "",
         "year": 2023,
@@ -10,15 +10,20 @@
             {
                 "title": "Overview",
                 "content": [
-                    "This is the first paragraph of the overview.",
-                    "This is the second paragraph of the overview."
+                    "Use the navbar to browse some of the projects I have written documentation for. For a more comprehensive view of my projects, please visit the projects section in the home page. I could not include many projects in this page due to a lack of documentation during the creation of the project or I decided that the project was not interesting enough to write about. Below, you will find projects I am working on/planning to work on. I plan to write documentation for most of my larger projects in the future." 
                 ]
             },
             {
-                "title": "Implementation",
+                "title": "Game-Playing AI - TFT",
                 "content": [
-                    "This is the first paragraph of the implementation.",
-                    "This is the second paragraph of the implementation."
+                    "This is the project that my masters thesis is revolved around. I will be aiming to use low-resource deep reinforcement learning to achieve superhuman level performance in a complex game such as TFT. It is uncertain whether this is feasible given the computational resources required by OpenAI Five and AlphaStar to achieve superhuman levels of performance in Dota 2 and Starcraft 2 respectively. A combination of reinforcement and supervised learning will be applied.",
+                    "This project is consequently lead to other subprojects to be created. Such projects include: a dedicated tool for data collection in TFT that can form datasets for TFT models to be trained on and an application that allows for multiple TFT games to be played simultaneuosly while also recording in-game information for future data analysis."
+                ]
+            },
+            {
+                "title": "NLP Project using PyTorch",
+                "content":[
+                    "No information about this project yet"
                 ]
             }
         ]
@@ -61,36 +66,6 @@
                 "title": "Shortcomings and Future Work",
                 "content": [
                     "In terms of shortcomings and future improvements, the application lacks functionality for adding new restaurants not already in the database, the taste profile page needs visual and informational improvements, the ability to view friends' taste profiles is absent, the friend addition system needs refinement, users can currently add themselves as a friend which is not ideal, private/public review features were forgotten, the application is not optimally responsive for smaller screen sizes especially due to complications with the Google map instance, profile and restaurant pictures implementation is missing which could be challenging due to storage and fetching issues, and there is a need for more detailed information about restaurants such as opening hours, website, and type of cuisine."
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Crew Connect - Discord Subset",
-        "technologies": ["PostgreSQL", "React", "Java", "Spring Boot", "JDBC", "Firebase"],
-        "timeline": "January 2023 - May 2023",
-        "year": 2023,
-        "isCompleted": true,
-        "githubLink": "https://github.com/CooperCrew/crew-connect",
-        "sections": [
-            {
-                "title": "Overview",
-                "content": [
-                    "This is the first paragraph of the overview.",
-                    "This is the second paragraph of the overview."
-                ]
-            },
-            {
-                "title": "Implementation",
-                "content": [
-                    "This is the first paragraph of the implementation.",
-                    "This is the second paragraph of the implementation."
-                ]
-            },
-            {
-                "title": "",
-                "content":[
-                    
                 ]
             }
         ]
@@ -150,7 +125,7 @@
         "githubLink": "https://github.com/colinh09/AI-Checkers",
         "sections": [
             {
-                "title": "Game Setting Configuration",
+                "title": "Game Configuration",
                 "content": [
                     "On initialization, the program prompts the user to specify various game configurations. These include whether to commence a new game or load a preexisting one, the desired game mode (AI vs AI or User vs AI), the AI's decision-making time limit (ranging from 3 to 60 seconds), and the player who will make the first move.",
                     "For loaded games, the time limit and starting player details are extracted directly from the saved game file. This file also contains the game state representation, where '1' denotes player 1's counter, '2' is for player 2's counter, '3' and '4' signify kings for players 1 and 2, respectively, and '0' indicates an empty space.",

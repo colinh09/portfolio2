@@ -27,13 +27,14 @@
     margin: 0.2em;
     padding: 0.2em 0.5em;
     background-color: #21F00C;
-    color: #F8F8FF;
+    color: #1B1B1B;
     border-radius: 20px;
 }
 
 .project-card p {
     text-align: left;
     font-size: 14px;
+    padding-top: 5%;
 }
 
 @media (max-width: 599px) {

@@ -24,9 +24,9 @@
         "githubUrl": "https://github.com/colinh09/Natural-Language-Processing/tree/main/Sentiment-Analysis"
     },
     {
-        "name": "Unoptimized C Compiler",
-        "tags": ["JavaScript", "Express", "MongoDB"],
-        "summary": "Currently not done writing.",
+        "name": "Unoptimized C99 Compiler",
+        "tags": ["Flex", "Bison", "C", "Data Structures", "Assembly (x86-32)", "AST"],
+        "summary": "Created a basic, unoptimized C compiler for an graduate level Compilers course at The Cooper Union. Using Flex, the compiler translates C lexical rules into meaningful tokens through lexical analysis. This is followed by the use of Bison to construct an Abstract Syntax Tree based on the C99 grammar rules. During the AST walk, a symbol table is used to track variable and function declarations. The compiler then processes the parsed output into an intermediate representation. Lastly, the compiler translates this intermediate form into x86-32 assembly language.",
         "githubUrl": "https://github.com/colinh09/Compilers"
     },
     {
